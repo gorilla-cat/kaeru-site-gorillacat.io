@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>脚本検索サイト</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <div class="sidebar">
+    <h3 class="menu-title">menu</h3>
+
+    <!-- HOME -->
+    <a href="index.html" class="menu-link">
+      <img src="simplehome.png" alt="HOME" class="menu-img-pc">
+      <img src="kawaii-home.png" alt="HOME（スマホ）" class="menu-img-sp">
+    </a>
+
+    <!-- 脚本一覧 -->
+    <a href="scripts.html" class="menu-link">
+      <img src="simplelist.png" alt="脚本一覧" class="menu-img-pc">
+      <img src="kawaii-all.png" alt="脚本一覧（スマホ）" class="menu-img-sp">
+    </a>
+
+    <!-- お問い合わせ -->
+    <a href="contact.html" class="menu-link">
+      <img src="simpleform.png" alt="お問い合わせ" class="menu-img-pc">
+      <img src="kawaii-form.png" alt="お問い合わせ（スマホ）" class="menu-img-sp">
+    </a>
+
+    <!-- 🔗 外部リンクエリア -->
+    <div class="sidebar-links">
+      <!-- はり子のとらの穴 -->
+      <a href="https://example.com/tora" target="_blank" class="menu-link">
+        <img src="side-tora.png" alt="はり子のとらの穴" class="menu-img-static">
+      </a>
+
+      <!-- Xアカウント -->
+      <a href="https://example.com" target="_blank" class="menu-link">
+        <img src="side-x.png" alt="Xアカウント" class="menu-img-static">
+      </a>
+    </div>
+  </div>
+
+<!-- ハンバーガーボタン（スマホ用） -->
+<div class="hamburger" id="hamburgerBtn">☰</div>
+
+<!-- サイドバー（既存） -->
+<div class="sidebar" id="sidebar">
+  <!-- ここにmenuやリンク -->
+  <h3 class="menu-title">menu</h3>
+
+  <!-- HOME -->
+  <a href="index.html" class="menu-link">
+    <img src="simplehome.png" alt="HOME" class="menu-img-pc">
+    <img src="kawaii-home.png" alt="HOME（スマホ）" class="menu-img-sp">
+  </a>
+
+  <!-- 脚本一覧 -->
+  <a href="scripts.html" class="menu-link">
+    <img src="simplelist.png" alt="脚本一覧" class="menu-img-pc">
+    <img src="kawaii-all.png" alt="脚本一覧（スマホ）" class="menu-img-sp">
+  </a>
+
+  <!-- お問い合わせ -->
+  <a href="contact.html" class="menu-link">
+    <img src="simpleform.png" alt="お問い合わせ" class="menu-img-pc">
+    <img src="kawaii-form.png" alt="お問い合わせ（スマホ）" class="menu-img-sp">
+  </a>
+
+  <!-- 🔗 外部リンクエリア -->
+  <div class="sidebar-links">
+    <!-- はり子のとらの穴 -->
+    <a href="https://www.haritora.net/script.cgi?writer=7496" target="_blank" class="menu-link">
+      <img src="side-tora.png" alt="はり子のとらの穴" class="menu-img-static">
+    </a>
+
+    <!-- Xアカウント -->
+    <a href="https://x.com/Namasutemple" target="_blank" class="menu-link">
+      <img src="side-x.png" alt="Xアカウント" class="menu-img-static">
+    </a>
+  </div>
+</div>
+
+
+
+  <div class="container">
+    <div class="header-image">
+      <img src="title-gg.png" alt="サイトタイトル画像" />
+    </div>
+
+    <div class="filters">
+      <form>
+        <div class="filter-group">
+          <label for="timeFilter">上演時間:</label>
+          <select id="timeFilter">
+            <option value="">すべて</option>
+            <option value="15">~10分</option>
+            <option value="30">~30分</option>
+            <option value="60">60分</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="maleFilter">男性キャスト:</label>
+          <select id="maleFilter">
+            <option value="">すべて</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4~</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="femaleFilter">女性キャスト:</label>
+          <select id="femaleFilter">
+            <option value="">すべて</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4~</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="genreFilter">ジャンル:</label>
+          <select id="genreFilter">
+            <option value="">すべて</option>
+            <option value="青春">青春</option>
+            <option value="コメディ">コメディ</option>
+            <option value="感動">感動</option>
+            <option value="ラブストーリー">ラブストーリー</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="castFilter">上演人数:</label>
+          <select id="castFilter">
+            <option value="">すべて</option>
+            <option value="3">~3人</option>
+            <option value="4">4人</option>
+            <option value="5">5人</option>
+            <option value="6">6人~</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="sortOrder">並べ替え:</label>
+          <select id="sortOrder">
+            <option value="asc">昇順</option>
+            <option value="desc">降順</option>
+          </select>
+        </div>
+
+        <button type="button" id="searchButton">検索</button>
+      </form>
+    </div>
+
+    <div id="scriptList"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+
+  <script>
+    const hamburger = document.getElementById("hamburgerBtn");
+    const sidebar = document.getElementById("sidebar");
+  
+    hamburger.addEventListener("click", () => {
+      console.log("クリックされた！");
+      sidebar.style.display = sidebar.style.display === "block" ? "none" : "block";
+    });
+  </script>
+  
+
+</body>
+
+
+
+</html>
