@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ</title>
+    <style>
+        /* 背景デザイン */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9; /* 優しいグレー背景 */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* フォームコンテナ */
+        .form-container {
+            background: white;
+            width: 90%;
+            max-width: 700px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* 影をつけて立体感 */
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        /* Googleフォーム埋め込みスタイル */
+        iframe {
+            width: 100%;
+            height: 1800px;
+            border: none;
+        }
+
+        /* スマホ対応（幅が小さいとき） */
+        @media screen and (max-width: 600px) {
+            .form-container {
+                width: 95%;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>お問い合わせフォーム</h2>
+        <p>使用依頼、問い合わせは以下のフォームよりお願いいたします。</p>
+
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQ9Mx9dUcGEvGwKi9GL4VSY_r493a4lZM9TAG7s1KLunvDuA/viewform?embedded=true">
+            読み込んでいます…
+        </iframe>
+    </div>
+
+</body>
+</html>
