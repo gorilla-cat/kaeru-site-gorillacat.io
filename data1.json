@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "title": "銃と正義とおかまバー",
+      "male": 2,
+      "female": 1,
+      "cast": 3,
+      "time": 60,
+      "genre": "コメディ",
+      "content": "ここに脚本が表示されます。"
+    },
+    {
+      "id": 2,
+      "title": "天使と悪魔",
+      "male": 1,
+      "female": 1,
+      "cast": 3,
+      "time": 10,
+      "genre": "コメディ",
+      "content": "ここに脚本が表示されます。"
+    },
+    {
+      "id": 3,
+      "title": "仮脚本C",
+      "male": 3,
+      "female": 3,
+      "cast": 6,
+      "time": 50,
+      "genre": "感動",
+      "content": "ここに脚本が表示されます。"
+    },
+    {
+      "id": 4,
+      "title": "仮脚本D",
+      "male": 4,
+      "female": 4,
+      "cast": 8,
+      "time": 60,
+      "genre": "ホラー",
+      "content": "ここに脚本が表示されるかもしれません。"
+    }
+  ]
+  
